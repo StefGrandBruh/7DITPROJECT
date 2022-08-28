@@ -62,7 +62,7 @@ nav {
     width:100%;
     height:110vh;
     background-color: white;
-    background-image: url("hammercard1.jpg");
+    background-image: url("images/hammercard1.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@ nav {
     width:100%;
     height:110vh;
     background-color: white;
-    background-image: url("fillercard2-2.jpg");
+    background-image: url("images/fillercard2-2.jpg");
     background-repeat: no-repeat;
     background-size: 54% 84%;
     background-position: 90% 70%;
@@ -161,7 +161,7 @@ nav {
 
 .card-img-split-3 {
     background-color: white;
-    background-image: url("fillercard3.jpg");
+    background-image: url("images/fillercard3.jpg");
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-position: center center;
@@ -223,7 +223,7 @@ nav {
 
 .card-img-split-4 {
     background-color: white;
-    background-image: url("nailfillerimage.jpg");
+    background-image: url("images/nailfillerimage.jpg");
     background-repeat: no-repeat;
     background-size: 65% 65%;
      background-position: center center;
@@ -479,7 +479,7 @@ nav {
   margin: auto;
   width: 40% ;
   background-color: green;
-  background-image: url("hammercard1.jpg") ;
+  background-image: url("images/hammercard1.jpg") ;
   transform: rotate(90deg);
   background-size: cover;
   height: 40%;
@@ -492,6 +492,8 @@ nav {
   background-color: rgb(215, 215, 215);
   padding-right: 5%;
   padding-top: 10%;
+  align-items: right;
+
 }
 
 .selltext h1{
@@ -499,4 +501,171 @@ nav {
   color: rgb(26, 26, 26);
   font-size: 250%;
   font-weight: 500;
+}
+
+.selltext p{
+  margin-top: 5%;
+  text-align: right;
+  color: rgb(26, 26, 26);
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.selltext h2 {
+  margin-top: 10%;
+  text-align: right;
+  color: rgb(255, 0, 0);
+  font-size: 320%;
+  text-decoration:overline;
+  font-weight: 900;
+  padding-bottom: 5%;
+}
+
+.selltext a{
+  right: 1%;
+  align-items: right;
+  text-decoration: none;
+  color:white;
+  padding: 2% 3% 2% 3%;
+  background-color: rgb(46, 46, 228);
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 0px 3px  12px rgb(84, 84, 84);
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 84%;
+
+}
+
+.selltext a:hover{
+  text-decoration: underline;
+}
+
+.scrolling-wrapper {
+
+  padding: 2%;
+  margin-top: 18vh;
+  margin-left: 0vw;
+  white-space: nowrap;
+  overflow: scroll;
+
+
+}
+
+.card {
+  display: inline-block;
+}
+
+#offwhite {
+  background-color: #F5F5F7;
+}
+
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.card {
+  padding-top:0px;
+  width: 34%;
+  height: 74vh;
+  margin-right: 1.2%;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+  transition: transform .3s, box-shadow .3s; /* Animation */
+  text-align: center;
+}
+
+#card1 {
+  margin-left: 15vw;
+}
+
+#cardend {
+  margin-right: 15vw;
+}
+
+.card:hover{
+  transition: transform .3s, box-shadow .3s; /* Animation */
+  transform: scale(1.01);
+  box-shadow: 2px 4px 20px rgba(0,0,0,.3);
+}
+
+.card h2 {
+  font-size: 200%;
+  padding: 4%;
+  font-weight: 400;
+  color: black;
+
+}
+.card div{
+
+  height: 30%;
+  display: flex;
+
+}
+.card p{
+  text-align: left;
+  color: rgb(67, 67, 67);
+  margin-left: 5%;
+  margin-top: 14%;
+  font-size: 90%;
+  width: 50%;
+  font-weight:lighter;
+
+}
+
+.card a{
+  text-decoration: none;
+  margin-left: 15%;
+  margin-top: 11.5%;
+  height: 14%;
+  color:white;
+  padding: 2% 3% 2% 3%;
+  background-color: rgb(56, 56, 255);
+  border-radius: 12px 12px 12px 12px;
+  transition:box-shadow .2s; /* Animation */
+  
+
+}
+
+.card a:hover{
+  transition:box-shadow .2s; /* Animation */
+  box-shadow: 0px 2px  8px rgba(84, 84, 84,0.7);
+  
+}
+
+.card img{
+  max-width: 85%;
+  width: auto;
+  height: 60%;
+  
+}
+
+.card b{
+  font-size: 120%;
+  text-decoration: underline;
+  
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .scrolling-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  #card1 {
+    margin-left: 0vw;
+    margin-top: 0%;
+  }
+
+  .card {
+    margin-top:5%;
+  }
+
+  #cardend {
+    margin-right: 0%;
+  }
 }
